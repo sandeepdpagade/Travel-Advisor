@@ -36,7 +36,7 @@ const List = () => {
           <div>
             <label className="block">Type</label>
             <select
-              className="p-4 border"
+              className="px-4 py-2 border rounded-lg"
               value={type}
               onChange={(e) => setType(e.target.value)}
             >
@@ -49,7 +49,7 @@ const List = () => {
           <div>
             <label className="block">Rating</label>
             <select
-              className="p-4 border"
+              className="px-4 py-2 border rounded-lg"
               value={rating}
               onChange={(e) => setRating(e.target.rating)}
             >
